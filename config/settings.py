@@ -141,3 +141,12 @@ STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LANGUAGES =(
+    ('en', 'English'),
+    ('fa', 'Persian'),
+)
+
+LOCALE_PATHS = [
+os.path.join(BASE_DIR, 'templates/locale'),
+]

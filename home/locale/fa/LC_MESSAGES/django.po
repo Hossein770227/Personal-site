@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-15 13:49+0330\n"
+"PO-Revision-Date: 2024-11-15 13:56+0330\n"
+"Last-Translator:   <karim@email.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.1\n"
+
+#: .\templates\home\home.html:6
+msgid "home page"
+msgstr "صفحه اصلی"
+
+#: .\templates\home\home.html:14 .\templates\home\home.html:44
+msgid "sepide mahzon"
+msgstr "سپیده محزون"
+
+#: .\templates\home\home.html:47
+msgid "hair transplant"
+msgstr "کاشت مو"
+
+#: .\templates\home\home.html:50
+msgid "stop hair loss"
+msgstr "قطع ریزش مو"
+
+#: .\templates\home\home.html:71
+msgid "about "
+msgstr "درباره "
+
+#: .\templates\home\home.html:71
+msgid "me"
+msgstr "من"
+
+#: .\templates\home\home.html:73
+msgid "description about me"
+msgstr ""
+"بهترین کاشت مو شیرازی با سابقه کاشت بین المللی استفاده از بهترین روش روش "
+"کاشت در دنیا با مجرب ترین تیم پزشکی ایران با بکارگیری بروزترین ترفند های "
+"پزشکی برای اشخاصی که قصد کاشت مو با تضمین بالاترین تراکم ممکن بهترین انتخاب "
+"هستش"
+
+#: .\templates\home\home.html:83
+msgid "birth date"
+msgstr "تاریخ تولد"
+
+#: .\templates\home\home.html:84
+msgid "email"
+msgstr "ایمیل"
+
+#: .\templates\home\home.html:85
+msgid "phone number whats app"
+msgstr "شماره واتساپ"
