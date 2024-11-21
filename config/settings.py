@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # my apps
     'home',
+    'portfolio',
     
     # third party apps
     'rosetta',
@@ -148,5 +149,5 @@ LANGUAGES =(
 )
 
 LOCALE_PATHS = [
-os.path.join(BASE_DIR, 'templates/locale'),
+    os.path.join(BASE_DIR, 'templates/locale'),
 ]
