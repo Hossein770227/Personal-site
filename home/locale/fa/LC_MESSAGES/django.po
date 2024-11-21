@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 13:49+0330\n"
-"PO-Revision-Date: 2024-11-16 19:24+0330\n"
+"POT-Creation-Date: 2024-11-21 12:36+0330\n"
+"PO-Revision-Date: 2024-11-21 12:08+0330\n"
 "Last-Translator:   <karim@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,6 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.1\n"
+
+#: .\apps.py:8
+#, fuzzy
+#| msgid "home page"
+msgid "home app "
+msgstr "صفحه اصلی"
+
+#: .\models.py:8
+msgid "customer name"
+msgstr "نام مشتری "
+
+#: .\models.py:9 .\templates\home\home.html:104 .\templates\home\home.html:120
+msgid "image"
+msgstr "تصویر"
+
+#: .\models.py:10
+msgid "date created"
+msgstr "تاریخ"
+
+#: .\models.py:13 .\models.py:14 .\templates\home\home.html:94
+msgid "portfolio"
+msgstr "نمونه کار ها"
 
 #: .\templates\home\home.html:6
 msgid "home page"
@@ -47,20 +69,33 @@ msgstr "من"
 msgid "description about me"
 msgstr ""
 "به کلینیک من خوش آمدید،\n"
-" جایی که جادوی کاشت مو با بیش از 10 سال تجربه بی‌نظیر در ایران و کشورهای خارجی به واقعیت تبدیل می‌شود\n"
-"من به عنوان یک تکنسین کاشت مو حرفه‌ای و استاد در هنر ترمیم مو، از تکنیک‌های پیشرفته و مهارتی بی‌نظیر برای بازگرداندن اعتماد به نفس و زیبایی طبیعی موهای شما استفاده می‌کنم\n"
-"هر بیمار برای من یک پروژه ویژه است که با دقت و توجه کامل به جزئیات انجام می‌شود. با استفاده از آخرین فناوری‌ها و روش‌های روز دنیا مانند sut fue fut  من تضمین می‌کنم که نتایج ما نه تنها طبیعی و ماندگار خواهند بود، بلکه فراتر از انتظار شما خواهد بود\n"
-"برای تجربه‌ای که نه تنها ظاهر شما را تغییر می‌دهد، بلکه زندگی شما را نیز دگرگون می‌کند، به من بپیوندید. اجازه دهید من به شما کمک کنم تا بهترین نسخه از خودتان را به جهان نشان دهید.\n"
-"منتظر شما هستیم تا با یک مشاوره رایگان، سفر به سوی اعتماد به نفس جدیدتان را آغاز کنیم!"
+" جایی که جادوی کاشت مو با بیش از 10 سال تجربه بی‌نظیر در ایران و کشورهای "
+"خارجی به واقعیت تبدیل می‌شود\n"
+"من به عنوان یک تکنسین کاشت مو حرفه‌ای و استاد در هنر ترمیم مو، از تکنیک‌های "
+"پیشرفته و مهارتی بی‌نظیر برای بازگرداندن اعتماد به نفس و زیبایی طبیعی موهای "
+"شما استفاده می‌کنم\n"
+"هر بیمار برای من یک پروژه ویژه است که با دقت و توجه کامل به جزئیات انجام "
+"می‌شود. با استفاده از آخرین فناوری‌ها و روش‌های روز دنیا مانند sut fue fut  من "
+"تضمین می‌کنم که نتایج ما نه تنها طبیعی و ماندگار خواهند بود، بلکه فراتر از "
+"انتظار شما خواهد بود\n"
+"برای تجربه‌ای که نه تنها ظاهر شما را تغییر می‌دهد، بلکه زندگی شما را نیز "
+"دگرگون می‌کند، به من بپیوندید. اجازه دهید من به شما کمک کنم تا بهترین نسخه از "
+"خودتان را به جهان نشان دهید.\n"
+"منتظر شما هستیم تا با یک مشاوره رایگان، سفر به سوی اعتماد به نفس جدیدتان را "
+"آغاز کنیم!"
 
-#: .\templates\home\home.html:83
+#: .\templates\home\home.html:79
 msgid "birth date"
 msgstr "تاریخ تولد"
 
-#: .\templates\home\home.html:84
+#: .\templates\home\home.html:80
 msgid "email"
 msgstr "ایمیل"
 
-#: .\templates\home\home.html:85
+#: .\templates\home\home.html:81
 msgid "phone number whats app"
 msgstr "شماره واتساپ"
+
+#: .\templates\home\home.html:116
+msgid "image name"
+msgstr "عنوان تصویر"
