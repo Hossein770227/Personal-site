@@ -165,7 +165,7 @@
                                 <div class="form-group form-group-with-icon">
                                     <i class="fa fa-phone"></i>
                                     <label>{% trans "phone number" %}</label>
-                                    <input id="form_phone_number" type="text" name="phone_number" class="form-control" placeholder required="required" dir="ltr" data-error={% trans "enter phone number is required" %}>
+                                    <input id="form_phone_number" type="text" name="phone_number" class="form-control"max='11' placeholder required="required" dir="ltr" data-error={% trans "enter phone number is required" %}>
                                     <div class="form-control-border"></div>
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -173,7 +173,7 @@
                                 <div class="form-group form-group-with-icon">
                                     <i class="fa fa-comment"></i>
                                     <label>{% trans "your message for me" %}  ...</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder rows="4" required="required" data-error={% trans "enter your message" %}></textarea>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder rows="3" required="required" data-error={% trans "enter your message" %}></textarea>
                                     <div class="form-control-border"></div>
                                     <div class="help-block with-errors"></div>
                                 </div>

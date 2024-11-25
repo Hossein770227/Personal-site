@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-21 18:11+0330\n"
-"PO-Revision-Date: 2024-11-21 18:13+0330\n"
+"POT-Creation-Date: 2024-11-25 12:04+0330\n"
+"PO-Revision-Date: 2024-11-25 12:05+0330\n"
 "Last-Translator:   <karim@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,8 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.1\n"
 
+#: .\admin.py:25
+#| msgid "image name"
+msgid "my admin name"
+msgstr "مدیریت وبسایت"
+
 #: .\apps.py:8
-#| msgid "home page"
 msgid "home app "
 msgstr "مدیریت برنامه ها"
 
@@ -28,7 +32,7 @@ msgstr "مدیریت برنامه ها"
 msgid "customer name"
 msgstr "نام مشتری "
 
-#: .\models.py:9 .\templates\home\home.html:104 .\templates\home\home.html:120
+#: .\models.py:9 .\templates\home\home.html:105 .\templates\home\home.html:121
 msgid "image"
 msgstr "تصویر"
 
@@ -36,16 +40,15 @@ msgstr "تصویر"
 msgid "date created"
 msgstr "تاریخ"
 
-#: .\models.py:13 .\models.py:14 .\templates\home\home.html:94
+#: .\models.py:13 .\models.py:14 .\templates\home\home.html:95
 msgid "portfolio"
 msgstr "نمونه کار ها"
 
-#: .\models.py:18
+#: .\models.py:18 .\templates\home\home.html:159
 msgid "full name"
 msgstr "نام کامل"
 
-#: .\models.py:19
-#| msgid "phone number whats app"
+#: .\models.py:19 .\templates\home\home.html:167
 msgid "phone number"
 msgstr "شماره تلفن"
 
@@ -61,31 +64,31 @@ msgstr "تاریخ ارسال پیام "
 msgid "message from user"
 msgstr "پیام کاربر"
 
-#: .\templates\home\home.html:6
+#: .\templates\home\home.html:7
 msgid "home page"
 msgstr "صفحه اصلی"
 
-#: .\templates\home\home.html:14 .\templates\home\home.html:44
+#: .\templates\home\home.html:15 .\templates\home\home.html:45
 msgid "sepide mahzon"
 msgstr "سپیده محزون"
 
-#: .\templates\home\home.html:47
+#: .\templates\home\home.html:48
 msgid "hair transplant"
 msgstr "کاشت مو"
 
-#: .\templates\home\home.html:50
+#: .\templates\home\home.html:51
 msgid "stop hair loss"
 msgstr "قطع ریزش مو"
 
-#: .\templates\home\home.html:71
+#: .\templates\home\home.html:72
 msgid "about "
 msgstr "درباره "
 
-#: .\templates\home\home.html:71
+#: .\templates\home\home.html:72
 msgid "me"
 msgstr "من"
 
-#: .\templates\home\home.html:73
+#: .\templates\home\home.html:74
 msgid "description about me"
 msgstr ""
 "به کلینیک من خوش آمدید،\n"
@@ -95,18 +98,46 @@ msgstr ""
 "برای تجربه‌ای که نه تنها ظاهر شما را تغییر می‌دهد، بلکه زندگی شما را نیز دگرگون می‌کند، به من بپیوندید. اجازه دهید من به شما کمک کنم تا بهترین نسخه از خودتان را به جهان نشان دهید.\n"
 "منتظر شما هستیم تا با یک مشاوره رایگان، سفر به سوی اعتماد به نفس جدیدتان را آغاز کنیم!"
 
-#: .\templates\home\home.html:79
+#: .\templates\home\home.html:80
 msgid "birth date"
 msgstr "تاریخ تولد"
 
-#: .\templates\home\home.html:80
+#: .\templates\home\home.html:81
 msgid "email"
 msgstr "ایمیل"
 
-#: .\templates\home\home.html:81
+#: .\templates\home\home.html:82
 msgid "phone number whats app"
 msgstr "شماره واتساپ"
 
-#: .\templates\home\home.html:116
+#: .\templates\home\home.html:117
 msgid "image name"
 msgstr "عنوان تصویر"
+
+#: .\templates\home\home.html:141 .\templates\home\home.html:150
+msgid "call"
+msgstr "تماس"
+
+#: .\templates\home\home.html:150
+msgid "with me"
+msgstr "با من"
+
+#: .\templates\home\home.html:160
+msgid "enter full name is required"
+msgstr "وارد کردن نام کامل الزامی است"
+
+#: .\templates\home\home.html:168
+msgid "enter phone number is required"
+msgstr "وارد کردن شماره تلفن الزامی است"
+
+#: .\templates\home\home.html:175
+msgid "your message for me"
+msgstr "پیام برای من"
+
+#: .\templates\home\home.html:176
+msgid "enter your message"
+msgstr "پیغام خود را وارد کنید"
+
+#: .\templates\home\home.html:183
+msgid "send message"
+msgstr " ارسال پیام "
