@@ -41,11 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # jalali date time 
+    'jalali_date',
     # my apps
     'home',
     
     # third party apps
     'rosetta',
+    "crispy_forms",
+    "crispy_bootstrap4",
 ]
 
 MIDDLEWARE = [
@@ -154,3 +158,8 @@ LANGUAGES =(
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'templates/locale'),
 ]
+
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"

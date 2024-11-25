@@ -12,3 +12,17 @@ class Portfolio(models.Model):
     class Meta:
         verbose_name = _('portfolio')
         verbose_name_plural = _('portfolio')
+
+
+class Customer_call(models.Model):
+    full_name = models.CharField(_("full name"), max_length=100)
+    phone_number = models.CharField(_("phone number"), max_length=11)
+    message = models.TextField(_("message"))
+    date_time_send_message = models.DateTimeField(_("date send message"),  auto_now_add=True)
+    
+    class Meta:
+        verbose_name = _('message from user')
+        verbose_name_plural = _('message from user')
+
+    def __str__(self):
+        return self.full_name

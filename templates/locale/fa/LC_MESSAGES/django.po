@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 14:00+0330\n"
-"PO-Revision-Date: 2024-11-15 14:02+0330\n"
+"POT-Creation-Date: 2024-11-21 12:07+0330\n"
+"PO-Revision-Date: 2024-11-21 12:08+0330\n"
 "Last-Translator:   <karim@email.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -26,3 +26,15 @@ msgstr "سپیده"
 #: .\_base.html:45
 msgid "mahzon"
 msgstr "محزون"
+
+#: .\_base.html:53
+msgid "home"
+msgstr "صفحه اصلی "
+
+#: .\_base.html:56
+msgid "portfolio"
+msgstr "نمونه کارها"
+
+#: .\_base.html:59
+msgid "call"
+msgstr "تماس"

@@ -1,4 +1,5 @@
 {% load static %}
+
 {% load i18n %}
 <!DOCTYPE html>
 <html lang="fa" class="no-js">
@@ -50,13 +51,13 @@
 						<!-- Main menu -->
 						<ul id="nav" class="site-main-menu">
 							<li>
-								<a class="pt-trigger" href="#home">خانه</a><!-- href value = data-id without # of .pt-page. -->
+								<a class="pt-trigger" href="#home">{% trans "home" %}</a><!-- href value = data-id without # of .pt-page. -->
 							</li>
 							<li>
-								<a class="pt-trigger" href="#portfolio">نمونه‌کارها</a>
+								<a class="pt-trigger" href="#portfolio">{% trans "portfolio" %}</a>
 							</li>
 							<li>
-								<a class="pt-trigger" href="#contact">تماس</a>
+								<a class="pt-trigger" href="#contact">{% trans "call" %}</a>
 							</li>
 						</ul>
 						<!-- /Main menu -->
@@ -69,9 +70,7 @@
         {% block content %}
         {% endblock content %}
 		</div>
-		{% comment %} <footer>
-			<div class="copyrights">تمامی حقوق محفوظ است. ارائه شده در وبسایت راستچین</div>
-		</footer> {% endcomment %}
+
 		<script type="text/javascript" src="{% static "js/bootstrap.min.js" %}"></script>
 		<script type="text/javascript" src="{% static "js/pages-switcher.js" %}"></script>
 		<script type="text/javascript" src="{% static "js/validator.js" %}"></script>
